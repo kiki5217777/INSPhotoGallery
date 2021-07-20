@@ -207,7 +207,7 @@ open class INSPhotosViewController: UIViewController, UIPageViewControllerDataSo
         view.addSubview(pageViewController.view)
         pageViewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         pageViewController.didMove(toParent: self)
-        
+        print("INSPhotosViewController test")
         setupOverlayView()
     }
     
